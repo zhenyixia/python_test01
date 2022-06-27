@@ -2,17 +2,17 @@
 import os
 import shutil
 
-path = r'G:\灾后数据\e盘\易我恢复文件\本地磁盘(E)\其他丢失文件\丢失原始名的文件\mp4'
+path = r'E:\待整理文件\gif'
 file_names0 = os.listdir(path)
 file_path1 = [os.path.join(path, name) for name in file_names0]
+#
+# path2 = r'E:\待整理文件\mp4'
+# file_names2 = os.listdir(path2)
+# file_path2 = [os.path.join(path2, name) for name in file_names2]
 
-path2 = r'E:\待整理文件\mp4'
-file_names2 = os.listdir(path2)
-file_path2 = [os.path.join(path2, name) for name in file_names2]
-
-file_path2.extend(file_path1)
-file_paths = file_path2
-
+# file_path2.extend(file_path1)
+# file_paths = file_path2
+file_paths = file_path1
 size_file = {}
 
 same_file = set()

@@ -15,7 +15,7 @@ def batch_modify(path, to_replaced_str, replaced_str):
 
 
 if __name__ == '__main__':
-    p = r"E:\待整理文件\少儿不宜"
+    p = r"E:\recovery\少儿不宜"
     str1 = ".mp4"
     str2 = ".p4"
     batch_modify(p, str1, str2)
