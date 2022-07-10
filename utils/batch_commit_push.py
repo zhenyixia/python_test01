@@ -6,6 +6,7 @@ import os
 
 ex_repository = ['toBeBetterJavaer', 'python', 'Python-100-Days', 'somebaks', 'yulinfengdian']
 
+
 re_path1 = "D:\GIT-repo"
 first_dir = os.listdir(re_path1)
 all_repository = []
